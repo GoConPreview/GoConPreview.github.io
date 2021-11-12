@@ -1,3 +1,9 @@
-# Block all crawlers
+# Allow Twitter crawler for Card Validator
+# https://cards-dev.twitter.com/validator
+# https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
+User-agent: Twitterbot
+Disallow:
+
+# Block other crawlers
 User-agent: *
 Disallow: /
